@@ -52,7 +52,7 @@ npm install
 ```
 
 配置 ./ 对应的后端静态路径
-![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_1.png)
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_2.png)
 
 启动验证  
 ```
