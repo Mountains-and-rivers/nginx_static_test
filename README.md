@@ -40,7 +40,7 @@ npm run build #打包
 
 ```
 express 是一个后端服务框架
-mkdir express
+mkdir express-demo
 cd express-demo
 npm install -g express
 npm install -g express-generator
