@@ -18,7 +18,7 @@
 ```
 cd vue-demo
 npm install # 安装依赖
-
+npm run build #打包
 输出静态目录为 dist
 ```
 
@@ -28,6 +28,7 @@ npm install # 安装依赖
 ![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/vue_2.png)
 ```
 cd vue-demo
+npm run build #打包
 输出静态目录为 dist
 ```
 
@@ -51,7 +52,7 @@ npm install
 ```
 
 配置 ./ 对应的后端静态路径
-![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_1.png)
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_2.png)
 
 启动验证  
 ```
@@ -61,7 +62,7 @@ npm start
 ![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/process_1.png)
 
 配置 /test 对应的后端静态路径
-![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_2.png)
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_1.png)
 启动验证  
 ```
 npm start
@@ -211,3 +212,4 @@ docker run -d -p 8001:9876 nginx:test
 
 访问验证
 
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/docker.png)
