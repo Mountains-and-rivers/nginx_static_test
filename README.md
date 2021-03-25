@@ -13,7 +13,7 @@
 
 修改打包前缀为 ./
 
-
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/vue_1.png)
 
 ```
 cd vue-demo
@@ -25,7 +25,7 @@ npm install # 安装依赖
 ### 打包前缀为 test
 
 修改打包前缀为 /test
-
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/vue_2.png)
 ```
 cd vue-demo
 输出静态目录为 dist
@@ -51,11 +51,11 @@ npm install
 ```
 
 配置 ./ 对应的后端静态路径
-
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_1.png)
 配置 /test 对应的后端静态路径
 
 ## nginx静态路径配置验证
-
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_2.png)
 制作镜像
 
 ```
