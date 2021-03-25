@@ -52,10 +52,24 @@ npm install
 
 配置 ./ 对应的后端静态路径
 ![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_1.png)
-配置 /test 对应的后端静态路径
 
-## nginx静态路径配置验证
+启动验证  
+```
+npm start
+```
+结果  
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/process_1.png)
+
+配置 /test 对应的后端静态路径
 ![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/express_2.png)
+启动验证  
+```
+npm start
+```
+结果  
+![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/process_2.png)
+## nginx静态路径配置验证
+
 制作镜像
 
 ```
