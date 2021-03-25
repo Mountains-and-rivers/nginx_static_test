@@ -22,7 +22,7 @@ npm install # 安装依赖
 输出静态目录为 dist
 ```
 
-### 打包前缀为 test
+### 打包前缀为 /test
 
 修改打包前缀为 /test
 ![image](https://github.com/Mountains-and-rivers/nginx_static_test/blob/main/images/vue_2.png)
