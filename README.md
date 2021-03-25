@@ -193,6 +193,16 @@ http {
 }
 ```
 
+镜像分片
+
+```
+cd docker-image
+cat xa* > nginx.tar
+docker load -i nginx.tar
+```
+
+
+
 启动容器
 
 ```
